@@ -1,0 +1,14 @@
+### create category
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+    "name": "sandwicheria",
+    "description": "mamsdaslaksa"
+}
+
+### get category
+GET http://localhost:3000/category
+
+### get category por nombre
+GET http://localhost:3000/category/?name=sandwicheria
