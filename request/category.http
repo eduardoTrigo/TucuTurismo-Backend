@@ -3,7 +3,7 @@ POST http://localhost:3000/category
 Content-Type: application/json
 
 {
-    "name": "sandwicheria",
+    "name": "Pizeria",
     "description": "mamsdaslaksa"
 }
 

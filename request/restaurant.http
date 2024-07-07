@@ -1,0 +1,17 @@
+### create restaurant
+POST http://localhost:3000/restaurant
+Content-Type: application/json
+
+{
+    "name":"El 10",
+    "description":"sandwicheria familiar",
+    "address":" av. Aconquija 150",
+    "categoryId":"6689c7f1fb4dce3f5eb9279a"
+}
+
+### get restaurant
+GET http://localhost:3000/restaurant
+
+### get restaurant by id
+GET http://localhost:3000/restaurant/668a2321896bee99b371873a
+
